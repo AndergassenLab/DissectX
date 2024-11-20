@@ -76,7 +76,7 @@ peak_counts <- peak_counts[order(peak_counts$score,decreasing = F),]
 ######------  plot data analysis results ------###### 
 pdf(file=paste(output,"rank_plot.pdf",sep=""), paper="a4r",width=8, height=7)
 par(mfrow=c(1,1),mar = c(5,10,5,5),cex.main=1,cex.axis=0.5,cex=1,pty ="s")
-plot(peak_counts$score,ylim=c(-2,4),xlim=c(1,nrow(peak_counts)),pch = 17 , las=2,type = "n",
+plot(peak_counts$score,ylim=c(-2,5),xlim=c(1,nrow(peak_counts)),pch = 17 , las=2,type = "n",
      col=peak_counts$color,cex=1+(abs(peak_counts$score)*2),
      ylab="Log10(p)",xlab="Rank")
 segments(x0 = 1:nrow(peak_counts) - abs(peak_counts$score)*200, y0 = peak_counts$score,
