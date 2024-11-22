@@ -13,8 +13,8 @@ library(ComplexHeatmap)
 
 
 ######------  set environment  ------###### 
-input <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/03_dissectX_RNA/03_RNAseq_AllelomePRO/placenta/"
-output <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/revision/"
+input <- "./placenta/"
+output <- "./"
 
 
 ######------  get AP results  ------###### 
