@@ -17,8 +17,8 @@ library(writexl)
 
 
 ######------  set environment  ------###### 
-input <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/04_dissectX_scRNA/05_AP_pseudobulk/"
-output <- "/Users/timhasenbein/Desktop/mnt_2/andergassen_lab/02_project_dissectX/04_dissectX_scRNA/04_AP_XiXa/"
+input <- "./"
+output <- "./"
 
 
 ######------  get data  ------###### 
