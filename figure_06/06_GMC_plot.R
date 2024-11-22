@@ -15,8 +15,8 @@ library(xlsx)
 
 
 ######------ set environment -----###### 
-input <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/19_revision/07_GMC/"
-output <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/revision/07_GMC/"
+input <- "./07_GMC/"
+output <- "./07_GMC/"
 abbr <- read.xlsx(paste0(input,"Abbreviations_parameter_names_GMC_2.xlsx"),sheetIndex = 1)[,2:4]
 colnames(abbr) <- c("test","pname","long_name")
 
