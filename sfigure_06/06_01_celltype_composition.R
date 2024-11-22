@@ -15,8 +15,8 @@ library(ComplexHeatmap)
 
 
 ######------  set environment  ------###### 
-output <- "/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/revision/"
-srat <- readRDS(paste0("/Users/timhasenbein/Desktop/mnt_3/ge26jec2/01_project_dissectX/04_dissectX_scRNA/03_Xa_status/03_srat_clean_integrated_reg_MT_labelled_XX_KO_WT_Xa_status.rds")) # 3694 cells
+output <- "./"
+srat <- readRDS(paste0("./03_srat_clean_integrated_reg_MT_labelled_XX_KO_WT_Xa_status.rds")) # 3694 cells
 DimPlot(srat, reduction = "umap", label = TRUE, label.size = 6, split.by = "Xa")
 
 ######------  plot celltype count ------###### 
