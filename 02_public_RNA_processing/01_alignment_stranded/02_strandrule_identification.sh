@@ -10,7 +10,7 @@
 
 ######------ Make bed file from GTF ------######
 awk '{ if ($0 ~ "transcript_id") print $0; else print $0" transcript_id \"\";"; }' $ANNOTATION | gtf2bed - > gencode.vM25_gm35612_LXR.annotation.bed # awk adds placeholder were the field transcript id is missing
-BED="/Users/timhasenbein/Desktop/mnt/andergassen_lab/RNAseq/reference_files/genome_ref_mm10/GENCODE_M25GRCm38.p6_201911/gencode.vM25_gm35612_LXR.annotation.bed"
+BED="./GENCODE_M25GRCm38.p6_201911/gencode.vM25_gm35612_LXR.annotation.bed"
 
 
 ######------ Run infer_experiment.py ------######
